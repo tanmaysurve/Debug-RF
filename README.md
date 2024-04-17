@@ -1,5 +1,5 @@
-# FairDebugger
-FairDebugger is a system which provides explanations for fairness-based biased predictions of random forest in the form of patterns or subsets of data-points in its training dataset which are contributing the most towards the bias. Fairdebugger's algorithm works on 2 pillars - Data Removal-Enabled Random Forest's (DaRE-RF - https://github.com/jjbrophy47/dare_rf) unlearning capabilities and greedy lattice tree search techniques.
+# Debug-RF
+Debug-RF is a system which provides explanations for fairness-based biased predictions of random forest in the form of patterns or subsets of data-points in its training dataset which are contributing the most towards the bias. Debug-RF's algorithm works on 2 pillars - Data Removal-Enabled Random Forest's (DaRE-RF - https://github.com/jjbrophy47/dare_rf) unlearning capabilities and greedy lattice tree search techniques.
 
 # Main Algorithm
 The main algorithm is written in FairDebugger.ipynb. It contains 2 classes - "Dataset" and "FairnessDebuggingUsingMachineUnlearning".
