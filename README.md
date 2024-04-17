@@ -12,7 +12,7 @@ After you get the most bias-inducing subsets, you can further analyse them by lo
 # Datasets
 We have provided FairDebugger's working on 3 datasets - Adult Income, German Credit and Stop Question Frisk dataset. You can check out FairDebugger's workings on these datasets by simply running the 3 files provided for their fairness debugging. Feel free to tinker around with hyperparameters and/or preprocessing to check their impact.
 
-# Testing of FairDebugger
+# Testing of Debug-RF
 1. "Testing_DaRE_RF_Effect_on_Fairness.ipynb" --> Testing DaRE-RF unlearning technique's effect on fairness metric.
 2. "Testing_FairDebugger_Efficiency.ipynb" --> Testing DaRE-RF's efficiency in terms of time as dataset dimensions (num_rows x num_cols) increases.
    
